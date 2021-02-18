@@ -128,14 +128,14 @@ static void usage(void)
   printf(
     "\n"
     "--------------------------------------------------------------------------------\n"
-    "HASH EXTENDER\n"
+    "%s\n"
     "--------------------------------------------------------------------------------\n"
     "\n"
-    "By Ron Bowes <ron @ skullsecurity.net>\n"
+    "By %s <%S>\n"
     "\n"
     "See LICENSE.txt for license information.\n"
     "\n"
-    );
+    , NAME, AUTHOR, EMAIL);
 
   printf(
     "Usage: %s <--data=<data>|--file=<file>> --signature=<signature> --format=<format> [options]\n",
